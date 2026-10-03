@@ -1,0 +1,104 @@
+# =============================================================
+# Cadence Tool Generated / Output Files
+# =============================================================
+
+# Cadence database lock files
+.cdslck
+*.cdslck
+
+# Cadence cellview directories (tool-specific, not portable)
+*/schematic/
+*/layout/
+*/symbol/
+*/veriloga/
+*.cds.lib.bak
+cds.lib
+cdsinit
+.cdsenv
+
+# Cadence simulation output
+*.ahdlSimDB/
+*.spectre/
+psf/
+*.raw
+*.pac
+*.noise
+*.dc
+*.tran
+*.log
+*.err
+simulate/
+hspiceD/
+spectre.out
+
+# Cadence Ocean scripts generated output
+*.ocn.out
+
+# =============================================================
+# EDA / General Tool Files
+# =============================================================
+
+# HSPICE output
+*.lis
+*.st0
+*.mt0
+*.sw0
+*.ic0
+*.tr0
+*.ac0
+
+# Calibre DRC/LVS
+svdb/
+*.rul.results
+calibre.log
+*.erc.results
+
+# =============================================================
+# OS / IDE
+# =============================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+._*
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# =============================================================
+# Python
+# =============================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+env/
+
+# =============================================================
+# Temporary / Misc
+# =============================================================
+
+*.tmp
+*.bak
+*.swp
+*~
+
+# Large bitmap exports (BMP) — use PNG equivalents instead
+*.bmp
+
+# =============================================================
+# Secrets
+# =============================================================
+
+.env
+*.key
+*.pem
+secrets.json
